@@ -1,0 +1,148 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  padding: 3% 0;
+}
+thead {
+  background-color: #979797;
+}
+
+#title {
+  background: #c8d115;
+  padding: 3% 5%;
+}
+#footer {
+  text-align: center;
+  padding: 5% 0;
+
+}
+#giveaways {
+  background-color: #c4b6b6;
+}
+#sponsors, #quemsomos {
+  text-align: center;
+  padding: 100px;
+}
+#regras {
+  text-align: center;
+  background-color: #feb72b;
+  color: #fff;
+}
+#precos {
+  text-align: center;
+  background-color: #8db596;
+}
+#precos .precos-header {
+  font-weight: lighter;
+}
+#quemsomos {
+  background-image: url("C:\Users\jtrin\OneDrive\Marketing Digital Lisboa\The Complete 2020 Web Development Course\web development\dedalmania\images\Costureira B&W.jpg");
+  background-color: transparent;
+}
+#sponsors {
+  background-color: #c4b6b6;
+}
+
+.big-heading {
+  padding-bottom: 3rem;
+  margin-top: 3rem;
+  color: white;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.bitnote {
+  border-radius: 10%;
+}
+.cover-img {
+  border-radius: 10%;
+  width:auto;
+}
+.facebook-img {
+  margin: 20px 0;
+}
+.footer-icon {
+  margin: 1% 1%;
+}
+.login-acc {
+  height: 750px;
+}
+.lojas-img {
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  padding-bottom: 2%;
+}
+.lojas-par {
+  padding: 2% 0;
+}
+.lojas-title {
+  font-weight: bold;
+}
+.main-but {
+  margin: 2%;
+  color: white;
+  padding: 4px;
+  width: 29%;
+}
+.navbar {
+  height: 100px;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.players {
+  text-align:center;
+  font-weight: bold;
+}
+.primeira-sec {
+  text-align: center;
+  /* padding: 5% 5%; */
+}
+.section-par {
+  width:60%;
+  margin: auto;
+  padding-bottom: 2%;
+}
+.section-subtitle {
+  font-weight: bold;
+}
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+.top-section {
+  margin: 3% auto;
+  width: 65%;
+}
+.vantagens {
+  width: 75%;
+  margin: 3% auto;
+}
+.vantagens-icon  {
+  color: #979797;
+}
+.carrousel-item {
+  text-align: center;
+}
+@media (max-width:1028px) {
+.cover-img {
+  display:none;
+}
+#lojas {
+  padding: 10px;
+}
+#empresas p {
+  display:none;
+}
+
+}
