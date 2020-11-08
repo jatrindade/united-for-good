@@ -25,6 +25,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -34,7 +36,7 @@
   <section id="title">
     <div class="container-fluid">
       <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo UFG.png" alt=""></img></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -99,7 +101,9 @@
         </div>
       </div>
     </div>
+
   </section>
+    <button class="btn btn-lg btn-danger btn-block"><b>Start the Game</b></button>
 <!-- entrar -->
   <section id="entrar" class="text-center">
     <img class="login-acc" src="images/login.png" alt="">
@@ -163,6 +167,7 @@
         </div>
       </div>
     </div>
+    <button class="btn btn-lg btn-dark btn-block">Find more</button>
     <br>
   <a href="#title" class="btn btn-primary text-right"><i class="fas fa-level-up-alt"></i></a>
   </section>
@@ -183,10 +188,14 @@
     </div>
     <div class="row vantagens">
       <div class="col-sm-6 col-md-4 col-lg-3">
-
         <i class=" vantagens-icon far fa-check-circle fa-4x"></i>
         <h3>Initial Bank Account</h3>
         <p>You'll have 50 zillion to spend </p>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <i class=" vantagens-icon far fas fa-gamepad fa-4x"></i>
+        <h3>Join Game Anytime</h3>
+        <p>To start a new game, invite min of 2 and max of 6, online</p>
       </div>
       <div class="col-sm-6 col-md-4 col-lg-3">
         <i class="vantagens-icon fas fa-dollar-sign fa-4x"></i>
@@ -194,27 +203,27 @@
         <p>See here the price of your construction Licences</p>
       </div>
       <div class="col-sm-6 col-md-4 col-lg-3">
-        <i class="vantagens-icon fas fa-shuttle-van fa-4x"></i>
+        <i class="vantagens-icon fas fa-industry fa-4x"></i>
         <h3>Buy Infrastructure</h3>
         <p>An assortment of Wind Turbines to biomass facilities </p>
       </div>
       <div class="col-sm-6 col-md-4 col-lg-3">
-        <i class="vantagens-icon fas fa-award fa-4x"></i>
+        <i class="vantagens-icon fas fa-users fa-4x"></i>
         <h3>Up to 6 players</h3>
         <p>Play around the world or in your region</p>
       </div>
       <div class="col-sm-6 col-md-4 col-lg-3">
-        <i class="vantagens-icon fas fa-clock fa-4x"></i>
+        <i class="vantagens-icon fas fa-piggy-bank fa-4x"></i>
         <h3>The banker</h3>
         <p><a href="https://www.itopf.org/">ITOPF</a> will manage your money. They will deal the cards</p>
       </div>
       <div class="col-sm-6 col-md-4 col-lg-3">
-        <i class="vantagens-icon far fa-building fa-4x"></i>
+        <i class="vantagens-icon far fa-id-card fa-4x"></i>
         <h3>You get 5 inital cards</h3>
         <p>They can be licences, assets or penalties</p>
       </div>
       <div class="col-sm-6 col-md-4 col-lg-3">
-        <i class="vantagens-icon fas fa-binoculars fa-4x"></i>
+        <i class="vantagens-icon fas fa-hammer fa-4x"></i>
         <h3>Auction</h3>
         <p>You can auction your cards or swap them for other</p>
       </div>
@@ -242,6 +251,11 @@
         <i class="vantagens-icon fas fa-calendar-alt fa-4x"></i>
         <h3>Fire and Accidents</h3>
         <p>There will be places you don't to be in. Avoid them.</p>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <i class="vantagens-icon fas fa-level-up-alt fa-4x"></i>
+        <h3>3 levels Difficulty</h3>
+        <p>Add points each time you play. When you achieve a threshold you'll unlock new levels and play with expert players</p>
       </div>
 
     </div>
@@ -307,7 +321,11 @@
     </div>
     <button class="btn btn-lg btn-dark btn-block">Find more</button>
     <br>
-  <a href="#title" class="btn btn-primary text-right"><i class="fas fa-level-up-alt"></i></a>
+    <div class="text-center">
+      <a href="#title" class=" text-center btn btn-primary text-right"><i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+
   </section>
 
   <!-- giveaways -->
@@ -357,10 +375,6 @@
         <br>
         <button class="btn btn-primary btn-lg">Publish to Your Social Media</button>
       </div>
-      <br>
-    <a href="#title" class="btn btn-primary text-right"><i class="fas fa-level-up-alt"></i></a>
-    </div>
-
   </section>
   <!-- footer -->
   <footer id="footer">
@@ -370,7 +384,7 @@
     <i class="footer-icon fas fa-envelope"></i>
     <br>
     <p>© Copyright 2020 United for Good</p>
-    
+
   <a href="#title" class="btn btn-primary text-right"><i class="fas fa-level-up-alt"></i></a>
   </footer>
 
