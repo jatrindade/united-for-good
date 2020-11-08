@@ -19,6 +19,7 @@ thead {
 }
 #giveaways {
   background-color: #c4b6b6;
+  height: 800px;
 }
 #sponsors, #quemsomos {
   text-align: center;
@@ -132,6 +133,9 @@ thead {
 }
 .carrousel-item {
   text-align: center;
+}
+.w-20 {
+  padding: 100px;
 }
 @media (max-width:1028px) {
 .cover-img {
