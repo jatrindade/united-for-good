@@ -67,6 +67,9 @@ thead {
 .login-acc {
   height: 750px;
 }
+.logo {
+  height: 8rem;
+}
 .lojas-img {
   width: 12.5rem;
   height: 12.5rem;
@@ -88,11 +91,7 @@ thead {
 .navbar {
   height: 100px;
 }
-.navbar-brand {
-  font-weight: bold;
-  font-size: 2rem;
-  font-family: 'Ubuntu', sans-serif;;
-}
+
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
