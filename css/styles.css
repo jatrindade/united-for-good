@@ -124,6 +124,13 @@ thead {
   margin: 3% auto;
   width: 65%;
 }
+.topbar {
+  background-color: grey;
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-size: 1.25rem;
+}
 .vantagens {
   width: 75%;
   margin: 3% auto;
@@ -136,6 +143,10 @@ thead {
 }
 .w-20 {
   padding: 100px;
+}
+
+.wwf {
+  height: 2rem;
 }
 @media (max-width:1028px) {
 .cover-img {
