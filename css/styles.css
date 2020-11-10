@@ -44,6 +44,9 @@ thead {
 #sponsors {
   background-color: #c4b6b6;
 }
+#title {
+  height: 690px;
+}
 
 .big-heading {
   padding-bottom: 3rem;
